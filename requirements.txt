@@ -1,0 +1,10 @@
+# Python deps (OpenSMILE, Magenta, Sound libraries, etc.)
+
+import opensmile
+
+# Set up an extractor for functionals of the eGeMAPS feature set:
+smile = opensmile.Smile(
+    feature_set=opensmile.FeatureSet.eGeMAPSv02,
+    feature_level=opensmile.FeatureLevel.Functionals,
+)
+
